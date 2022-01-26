@@ -16,7 +16,6 @@ allure {
     version = '2.17.0'
     useJUnit5 {
         version = '2.17.0'
-
         configuration = "testImplementation"
     }
 }
@@ -38,7 +37,6 @@ dependencies {
     testImplementation 'io.qameta.allure:allure-selenide:2.17.0'
     testImplementation 'mysql:mysql-connector-java:8.0.22'
     testImplementation 'commons-dbutils:commons-dbutils:1.7'
-
     testImplementation 'io.rest-assured:rest-assured:4.4.0'
 
 }
